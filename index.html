@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+    <div class="header container pt-5 text-light">
+        <h2>Bookmarker</h2>
+        <hr>
+    </div>
+    <div class="information container text-center ">
+        <h2>Bookmark <span>your</span> favorite sites</h2>
+        <label class="p-4 fw-bold" for="siteName">Site Name</label>
+        <input type="text" id="siteName" class="form-control" placeholder="Bookmark Name" required/>
+
+        <label class="p-4 fw-bold" for="siteUrl">Site URL</label>
+        <input type="text" id="siteUrl" class="form-control" placeholder="website URL" required/>
+        <button onclick="addSite()" class="btn btn-info mt-3 p-2">Submit</button>
+    </div>
+    <div class="footer container text-light">
+        <hr>
+        <p>© 2022 Bookmarker Inc.</p>
+    </div>
+    <div class="w-75 mx-auto py-5">
+<table class="table text-center text-light fw-bold border-0">
+    <input type="text" class="form-control w-75 mx-auto" name="" id="search" placeholder="Search" oninput="searchSite(this.value)"/>  
+<tbody id="tableSite">
+
+</tbody>
+</table>
+</div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

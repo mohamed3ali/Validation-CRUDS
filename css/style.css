@@ -1,0 +1,17 @@
+body{
+    font-family:initial;
+    background-image: url(../img/img_large_3.jpg);
+background-position: center center;
+background-size: cover;
+}
+.information{
+ color: #fff;;
+    padding: 50px ;
+
+}
+.information h2{
+colo:#fff;
+font-size:50px;
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.information h2 span{}
