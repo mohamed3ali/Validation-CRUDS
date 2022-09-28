@@ -49,7 +49,7 @@ function deleteSite(deleteIndex){
 
 
 function openSite(){
- window.open(siteUrl.value,'_black') ; 
+ window.open(siteUrl.value,'_blank') ; 
 }
 
 function validSite(){
