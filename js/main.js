@@ -17,6 +17,7 @@ if(validSite() == true)
             }
             siteLove.push(addInfo)
             localStorage.setItem('addInfo',JSON.stringify(siteLove))
+    clearSite();
             displaySite();
         
         }
@@ -81,4 +82,7 @@ function searchSite(term){
     
     
         }
-    
+    function clearSite(){
+    siteName.value = ''
+    siteUrl.value = ''
+}
